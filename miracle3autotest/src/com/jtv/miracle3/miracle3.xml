@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test name="Test" preserve-order="true" >
+    <classes>
+  		                                                        <!--注释： 把人员-分配角色的第一个人员的角色取消 -->
+  		 <class name="com.jtv.miracle3.LoginMirace3"/>          <!-- 登录miracle3 -->
+  		 <class name="com.jtv.miracle3.SettingLogo"/>           <!-- 设置logo是否显示 -->
+         <class name="com.jtv.miracle3.SettingViewFont"/>       <!-- 设置文字是否显示 --> 		
+  		 <class name="com.jtv.miracle3.CheckboxRadioBox"/>      <!-- 单选框和复选框的转换 --> 		
+  		 <class name="com.jtv.miracle3.Adduser"/>               <!-- 新增用户 -->
+  	     <class name="com.jtv.miracle3.ViewUser"/>              <!-- 查看用户 -->
+  	     <class name="com.jtv.miracle3.ResetQuery"/>            <!-- 重置查询条件 -->
+  	     <class name="com.jtv.miracle3.TableAdd"/>              <!-- 人员界面批量增加列(注意ID变化) -->
+  	     <class name="com.jtv.miracle3.TableDelete"/>           <!-- 人员界面批量删除列 -->
+     	 <class name="com.jtv.miracle3.ModifyUserPasswd"/>      <!-- 修改用户密码 -->
+         <class name="com.jtv.miracle3.NewRoles"/>              <!-- 新增角色 -->
+  		 <class name="com.jtv.miracle3.AssignRoles"/>           <!-- 分配角色 -->
+  		 <class name="com.jtv.miracle3.AssignRight"/>           <!-- 流程授权 -->
+  		 <class name="com.jtv.miracle3.CommonLable"/>           <!-- 人员设置为-常用标签 -->
+  		 <class name="com.jtv.miracle3.AutoQuery"/>             <!-- 人员设置-表格自动查询与取消 -->
+  		 <class name="com.jtv.miracle3.CommonTable"/>  		    <!-- 通用表单-增加和删除 -->
+  		 <class name="com.jtv.miracle3.QueryDeleteUser"/>       <!-- 查询和删除用户 -->
+  		 <class name="com.jtv.miracle3.SafeOut"/>               <!-- 安全退出 -->
+     </classes>
+  </test> 
+</suite> 

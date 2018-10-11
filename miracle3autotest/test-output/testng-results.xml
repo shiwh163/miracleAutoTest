@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37300" started-at="2017-05-26T03:25:04Z" finished-at="2017-05-26T03:25:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37300" started-at="2017-05-26T03:25:04Z" finished-at="2017-05-26T03:25:41Z">
+      <class name="com.jtv.miracle3.Adduser">
+        <test-method status="PASS" signature="adduser()[pri:0, instance:com.jtv.miracle3.Adduser@4f933fd1]" name="adduser" duration-ms="37219" started-at="2017-05-26T11:25:04Z" finished-at="2017-05-26T11:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adduser -->
+      </class> <!-- com.jtv.miracle3.Adduser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
